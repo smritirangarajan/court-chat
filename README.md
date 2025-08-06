@@ -2,7 +2,7 @@
 
 **An AI-Powered Legal Research Assistant for U.S. Supreme Court Cases**
 
-
+![Court Chat Interface](next-app/public/assets/court-chat-interface.png)
 
 Court Chat is a sophisticated legal research tool designed specifically for **legal professionals** to efficiently explore and analyze U.S. Supreme Court opinions. Leveraging advanced semantic search technology, it enables attorneys, paralegals, law students, and legal researchers to query decades of Supreme Court decisions using natural language, significantly reducing research time and improving case discovery.
 

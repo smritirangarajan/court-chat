@@ -1,0 +1,6 @@
+fastapi==0.110.1
+uvicorn==0.29.0
+python-dotenv==1.0.1
+astrapy==1.4.2
+openai==1.30.5
+tqdm==4.66.4

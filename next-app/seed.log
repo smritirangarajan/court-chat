@@ -1,0 +1,17 @@
+
+> next-app@0.1.0 seed
+> ts-node ./scripts/loadDb.ts
+
+🚀 Seeding SCOTUS (CourtListener v4) from 2021-01-01 to 2020-12-31
+🔧 Job ID: scotus_2021_2020 — Resume: ON
+[cases] created: Collection(keyspace="default_keyspace",name="cases")
+[opinions] created: Collection(keyspace="default_keyspace",name="opinions")
+[control] created: Collection(keyspace="default_keyspace",name="seed_control")
+🔁 RESUME enabled but no checkpoint found. Starting from the first page.
+
+🔗 clusters URL [page 1]: https://www.courtlistener.com/api/rest/v4/clusters/?docket__court=scotus&date_filed__gte=2021-01-01&date_filed__lte=2020-12-31&page_size=100&order_by=-date_filed&fields=id%2Ccase_name%2Ccase_name_full%2Cdate_filed%2Cdocket%2Ccitations%2Csub_opinions
+
+✅ Finished ingesting 0 clusters (cases).
+
+🎉 Database is fully populated: cases + opinions (with vectors).
+   You can now filter in `cases` and vector-search in `opinions` by `case_id`.
